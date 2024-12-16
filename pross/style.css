@@ -1,8 +1,89 @@
-
-    top: 452px
+*{
+    color: rgb(9, 9, 9);
+    font-family: "Montserrat" sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
 }
 
+.icon img{
+    width: 50px;
+    height: 34px;
+}
 
+.icon p{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 3px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
 
+.buttons button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
 
+.buttons button i{
+    margin: 15px;
+}
 
+.imgback{
+    background-image: url(./Rectangle\ 1.png);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.parag{
+    position: absolute;
+    top: 70px;
+    right: 600px;
+}
+
+.allpart{
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    display: flex;
+    margin-left: 9px;
+}
+.filter button{
+    border: none;
+    background-color: #F9F1E7;
+}
+
+.grid button{
+    border: none;
+    margin-top: 15px;
+}
+
+.lastpart{
+    display: flex;
+}
+.lastpart .parttwo{
+    background-color: rgb(253, 253, 253);
+    padding:10px ;
+    margin: 5px ;
+}
+
+.lastpart2{
+    display: flex;
+    margin-right: 10px;
+}
+.lastpart2 .parttwo2{
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    margin: 5px;
+}
