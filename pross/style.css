@@ -1,33 +1,4 @@
-.header{
-    background-image:url(./Rectangle\ 1.png);
-    width: 100vw;
-    height: 50vh;
 
-}
-.para{
-    top: 0;
-    left: 500px;
-    position: absolute;
-    padding: 90px;
-    text-align: center;
-}
-
-.foote{
-    background-color: #f9f1e7;
-}
-.foote button {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-.fa-solid-fa-sliders{
-     position: absolute;
-    width: 85px;
-    height: 30px;
-    left: 98px;
     top: 452px
 }
 
