@@ -1,0 +1,66 @@
+*{
+    background-color: black;
+    color: rgb(252, 252, 252);
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(249, 251, 252);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.backimg{
+    background-image: url(./Rectangle\ 16.png);
+    width: 636px;
+    height: 450px;
+}
+
+section .allpart{
+    display: grid;
+    grid-template-columns: repeat(2, 640px);
+    grid-template-rows: 300px
+}
+
+.backtext{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(5, 90px);
+    margin-left: 100px;
+}
+
+.paragraphs{
+    color: #9C9C9C;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons button{
+    border-style: none;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.box button{
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.sign{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.sign button{
+    border-style: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
